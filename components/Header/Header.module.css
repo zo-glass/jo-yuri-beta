@@ -1,0 +1,133 @@
+.header {
+    z-index: 88;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    /*border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);*/
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.bar {
+    width: 90%;
+    height: inherit;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.barItems {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 29px;
+    color: inherit;
+}
+
+.logo:hover {
+    color: orange;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuItem {
+    color: inherit;
+    font-size: 1em;
+    padding: 0 8px;
+}
+
+.menuItem:hover {
+    color: orange;
+}
+
+.aHeader {
+    z-index: 888;
+    display: none;
+}
+
+.menuIcon {
+    display: none;
+}
+
+
+@media screen and (max-width: 935px) {
+    .menuIcon {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .bg{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+    }
+
+    .aHeader {
+        display: block;
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+
+    .aHeader.activate{
+        left: 0%;
+        transition: all 0.5s ease;
+    }
+    
+    .barMobile {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        color: rgb(38, 38, 38); 
+        background-color: white;
+        border-radius: 0 0 4px 4px;
+    }
+    
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 9px 0;
+    }
+    
+    .menuItemsMobile {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menuItemsMobile2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menuItemMobile {
+        font-size: 1.875rem;
+        text-align: center;
+        margin: 0 5px;
+        padding: 10px 0;
+        color: inherit;
+    }
+    
+}

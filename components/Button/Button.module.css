@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 250px;
+    height: 70px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(38, 38, 38);
+    /*border-radius: 4px;*/
+    /*
+    border-width: 3px 1px 1px 3px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    transform: rotate(2deg);
+    */
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 1px;
+}
+
+.btn:hover {
+    color: orange;
+    border-color: orange;
+}
+
+@media screen and (max-width: 935px) {
+    .btn {
+        width: 120px;
+        height: 42px;
+    }
+}
