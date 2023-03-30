@@ -11,9 +11,9 @@ export default function Custom404() {
 
     return (
         <>
-            <h2>Oops!</h2>
+            {/*<h2>Oops!</h2>
             <h3>There&apos;s nothing here</h3>
-            <Button text={'<3'} to={'/'}/>
+            <Button text={'<3'} to={'/'}/>*/}
         </>
     )
 }
