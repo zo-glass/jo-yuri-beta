@@ -48,11 +48,11 @@ function Footer() {
                     <div className={styles.barItems}>
                         <nav className={styles.menu}>
                             <ul className={styles.menuItems}>
-                                {/*<li>
+                                <li>
                                     <a href="https://wake-one.com/" target='_blank' rel='noopener noreferrer'>
                                         <p className={styles.menuItem}>Wake One Entertainment</p>
                                     </a>
-                                </li>*/}
+                                </li>
                                 { pages?.map( (i, index) => {
                                     return (
                                         <li className={styles.menuItem} key={index}>
