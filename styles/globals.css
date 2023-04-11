@@ -23,7 +23,7 @@ time, mark, audio {
 	font: inherit;
 	vertical-align: baseline;
 	/**/
-	font-family: 'VelourLight';
+	font-family: 'Velour-Light';
 	color: rgb(38, 38, 38);
 	/**/
 }
@@ -144,8 +144,8 @@ h3 {
 }
 
 @font-face { 
-  font-family: VelourLight;
-  src: url('/assets/fonts/VelourLight.otf');
+  font-family: Velour-Light;
+  src: url('/assets/fonts/Velour-Light.otf');
 }
 
 /*swiper*/
